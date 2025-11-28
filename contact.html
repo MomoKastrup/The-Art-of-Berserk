@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Art of Berserk">
+    <title>The Art of Berserk</title>
+    <link rel="icon" type="image/x-icon" href="images/Berserker_Armour.png">
+    <link rel="stylesheet" href="CSS/general.css">
+    <link rel="stylesheet" href="CSS/contact.css">
+
+</head>
+<body>
+    <header>
+        <h1>The Art of Berserk</h1>
+        <label for="hamburger_checkbox">
+            <img src="images/Berserk.png" alt="Menu" id="hamburger_image">
+        </label>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="photos.html">Photos</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active_nav">Contact</a>
+        </nav> 
+    </header>
+
+    <form id="contact_form" method="post">
+        <label for="fname">First name</label>
+        <input type="text" id="fname" name="fname" autocomplete="given-name">
+        <label for="lname">Last name</label><br>
+        <input type="text" id="lname" name="fname" autocomplete="family-name">
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" autocomplete="email">
+        <label for="mobile">Mobile</label><br>
+        <input type="text" id="mobile" name="mobile" autocomplete="tel">
+        <label for="message">Message</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+        
+    <footer>
+        <p>
+          The Art of Berserk &copy; 2025 by Momo Larter is licensed under
+          <br>
+          <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0
+          <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="icon cc">   
+          <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="icon by"> 
+          </a>
+        </p>
+    </footer>
+</body>
+</html>
